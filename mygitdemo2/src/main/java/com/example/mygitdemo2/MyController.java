@@ -12,4 +12,9 @@ public class MyController {
 		{
 			return new ModelAndView("index");
 		}
+		@GetMapping("/home")
+		public ModelAndView showHomePage()
+		{
+			return new ModelAndView("home");
+		}
 }
